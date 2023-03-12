@@ -1251,6 +1251,7 @@ figure * {
 a.ref {
   color: white;
   font-weight: bold;
+  font-size: 20px;
 }
 .repeated-list li:hover,
 .orthodontic-management ul li:hover,
