@@ -37,6 +37,8 @@ a {
 }
 .flex-display {
   display: flex !important;
+  flex-direction: column;
+  justify-content: space-evenly !important;
 }
 .special-main-heading {
   color: var(--main-Color);
