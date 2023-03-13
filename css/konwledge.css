@@ -1270,12 +1270,14 @@ a.ref {
   margin-left: -2em;
 }
 .orthodontic-management .box {
-  display: grid;
+  /* display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
 }
 .orthodontic-management .box .image {
   padding: 5px;
+  width: fit-content;
+  margin:10px auto;
   background-color: #03636fb1;
 }
 .orthodontic-management .box .image img {
@@ -1690,7 +1692,6 @@ a.ref {
   padding: 10px;
   background-color: #03636fb1;
   margin-inline: auto;
-  width: 600px;
   max-width: 100%;
   margin-top: 25px;
 }
@@ -1777,7 +1778,7 @@ a.ref {
 .orb-anatomical .image {
   padding: 5px;
   background-color: #03636fb1;
-  width: 400px;
+
   margin: 20px auto;
   max-width: 100%;
 }
@@ -1822,7 +1823,6 @@ a.ref {
   max-width: 400px;
 }
 .oral-findings .image {
-  width: 680px;
   max-width: 100%;
   margin: auto;
   padding: 10px;
